@@ -1,0 +1,19 @@
+{
+    "name": "jdz/jizy-niceselect",
+    "type": "library",
+    "description": "Customizable and searchable select dropdown replacement",
+    "keywords": [
+        "JDZ",
+        "NiceSelect"
+    ],
+    "homepage": "https://jdz.joffreydemetz.com/jizy-niceselect/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joffrey Demetz",
+            "email": "joffrey.demetz@gmail.com",
+            "homepage": "https://joffreydemetz.com",
+            "role": "Lead"
+        }
+    ]
+}

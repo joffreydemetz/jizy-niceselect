@@ -1,0 +1,5 @@
+import NiceSelect from '{{PREFIX}}lib/js/NiceSelect.js';
+
+import '{{PREFIX}}lib/index.less';
+
+export default NiceSelect;
