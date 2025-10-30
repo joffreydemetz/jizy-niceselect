@@ -29,7 +29,7 @@
   "author": "Joffrey Demetz <joffrey.demetz@gmail.com> (https://joffreydemetz.com/)",
   "license": "MIT",
   "description": "A lightweight, customizable and accessible select box replacement library.",
-  "dependencies": {
+  "devDependencies": {
     "jizy-packer": "^2.1.32",
     "less": "^4.4.1"
   }
