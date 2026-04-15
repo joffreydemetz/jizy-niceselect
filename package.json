@@ -1,13 +1,12 @@
 {
   "name": "jizy-niceselect",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "browser": "dist/js/jizy-niceselect.min.js",
   "main": "lib/index.js",
   "type": "module",
   "jizy": "dist/",
   "files": [
     "dist/*",
-    "example/*",
     "lib/*"
   ],
   "scripts": {
@@ -30,7 +29,7 @@
   "license": "MIT",
   "description": "A lightweight, customizable and accessible select box replacement library.",
   "devDependencies": {
-    "jizy-packer": "^2.1.32",
+    "jizy-packer": "^2.1.44",
     "less": "^4.4.1"
   }
 }
