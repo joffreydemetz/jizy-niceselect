@@ -28,6 +28,7 @@
   "author": "Joffrey Demetz <joffrey.demetz@gmail.com> (https://joffreydemetz.com/)",
   "license": "MIT",
   "description": "A lightweight, customizable and accessible select box replacement library.",
+  "homepage": "https://jizy.joffreydemetz.com/niceselect",
   "devDependencies": {
     "jizy-packer": "^2.1.44",
     "less": "^4.4.1"
