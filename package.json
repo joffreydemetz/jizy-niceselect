@@ -15,7 +15,15 @@
     "jpack:export": "node ./cli/jpack.js --action build --name perso",
     "jpack:export-debug": "node ./cli/jpack.js --action build --name perso --debug",
     "jpack:dist": "node ./cli/jpack.js",
-    "jpack:dist-debug": "node ./cli/jpack.js --debug"
+    "jpack:dist-debug": "node ./cli/jpack.js --debug",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "testMatch": [
+      "<rootDir>/tests/**/*.test.js"
+    ],
+    "transform": {}
   },
   "repository": {
     "type": "git",
@@ -30,6 +38,8 @@
   "description": "A lightweight, customizable and accessible select box replacement library.",
   "homepage": "https://jizy.joffreydemetz.com/niceselect",
   "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
     "jizy-packer": "^2.1.44",
     "less": "^4.4.1"
   }
