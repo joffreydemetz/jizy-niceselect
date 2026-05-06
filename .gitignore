@@ -1,5 +1,2 @@
-build/*
-example/
 node_modules/
-test/
 package-lock.json
