@@ -90,6 +90,8 @@
 		//pointer-events: none;
 		overflow: hidden auto;
 		max-height: 200px;
+		left: -1px;
+		right: -1px;
 
 		// &::-webkit-scrollbar {
 		// width: 10px;
@@ -132,11 +134,11 @@
 	}
 
 	&.horizontal {
-		height: @niceselect_input_height;
+		height: var(--jizy-niceselect-input-height);
 
 		.dropdown {
 			position: absolute;
-			top: @niceselect_input_height;
+			top: var(--jizy-niceselect-input-height);
 			left: 0;
 			z-index: 110;
 			padding-top: 10px;
