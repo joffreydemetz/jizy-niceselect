@@ -1,6 +1,6 @@
 {
   "name": "jizy-niceselect",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "browser": "dist/js/jizy-niceselect.min.js",
   "main": "lib/index.js",
   "type": "module",
