@@ -5,6 +5,14 @@
   "main": "lib/index.js",
   "type": "module",
   "jizy": "dist/",
+  "author": "Joffrey Demetz <joffrey.demetz@gmail.com> (https://joffreydemetz.com/)",
+  "license": "MIT",
+  "description": "A lightweight, customizable and accessible select box replacement library.",
+  "homepage": "https://jizy.joffreydemetz.com/niceselect",
+  "keywords": [
+    "jdz",
+    "jizy"
+  ],
   "files": [
     "dist/*",
     "lib/*"
@@ -29,14 +37,6 @@
     "type": "git",
     "url": "git+https://github.com/joffreydemetz/jizy-niceselect.git"
   },
-  "keywords": [
-    "jdz",
-    "jizy"
-  ],
-  "author": "Joffrey Demetz <joffrey.demetz@gmail.com> (https://joffreydemetz.com/)",
-  "license": "MIT",
-  "description": "A lightweight, customizable and accessible select box replacement library.",
-  "homepage": "https://jizy.joffreydemetz.com/niceselect",
   "devDependencies": {
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
