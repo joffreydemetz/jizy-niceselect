@@ -117,7 +117,9 @@
 
 					&:hover,
 					&:focus {
-						font-style: italic;
+						// animate opacity (li already has transition: all .2s)
+						// instead of shifting the text to italic
+						opacity: .6;
 					}
 
 					&.selected {
